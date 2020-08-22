@@ -1,0 +1,166 @@
+#course-list-container {
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+
+.courses-heading {
+  font-family: "montserrat-Bold" !important;
+  margin-bottom: 20px;
+  font-size: 160%;
+}
+
+/* .course-grid {
+  padding-left: 220px !important;
+  margin-left: 1100px !important;
+} */
+
+.course-card-grid {
+  margin-top: 15px;
+  height: 10%;
+  align-content: center;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.course-card {
+  font-family: "montserrat-normal" !important;
+  font-size: 14px;
+  min-height: auto;
+  height: 380px;
+  border-radius: 0px !important;
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9 !important;
+  vertical-align: baseline;
+  color: #000;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.course-card:hover {
+  -webkit-transform: scale(1.25, 1.25);
+  box-shadow: 0 0px 7px rgba(33, 33, 33, 0.3) !important;
+  transform: scale(1.02, 1.02);
+}
+
+.card-clickable1:hover {
+  text-decoration: none;
+}
+
+.course-card-image {
+  border-radius: 0px !important;
+}
+
+.course-author-pic {
+  position: absolute;
+  transform: translateY(-80%);
+  max-height: 13.5%;
+  max-width: 22%;
+  border-radius: 50%;
+  border: 1.5px solid white;
+}
+
+#course-card-author {
+  position: absolute;
+  vertical-align: middle;
+  padding-top: 4px !important;
+  font-family: "montserrat-medium";
+}
+
+.course-promotion-content-1 {
+  /* margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: 10px; */
+}
+#course-promotion-1-1 {
+  color: #6f6f6f;
+  font-family: "montserrat-bold";
+  font-size: 12px;
+  text-decoration-line: line-through;
+}
+
+#course-promotion-1-2 {
+  color: #f4b803;
+  font-family: "montserrat-bold";
+  font-size: 16px;
+}
+
+#course-promotion-button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #1c212d;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#course-promotion-button1 {
+  margin-top: 20px;
+  width: 100%;
+  display: none;
+}
+
+#course-card-amount {
+  content: "$";
+  color: #51d434;
+  float: right;
+  font-size: 130%;
+  font-family: "montserrat-bold";
+  vertical-align: middle;
+}
+
+.course-card-title {
+  font-family: "montserrat-semibold" !important;
+  font-size: 13px;
+}
+
+#course-card-extra-stats {
+  margin-top: 5px;
+  font-size: 11px;
+}
+
+.course-card-source-logo {
+  height: 13px;
+  width: 50px;
+  float: right;
+  vertical-align: middle;
+}
+
+.a {
+  display: flex;
+  flex-direction: column;
+  width: 95% !important;
+  /* max-width: 1170px !important; */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  #course-promotion-1-1 {
+    font-size: 11px;
+  }
+  
+  #course-promotion-1-2 {
+    font-size: 13px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #course-promotion-1-1 {
+    font-size: 11px;
+  }
+  
+  #course-promotion-1-2 {
+    font-size: 14px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1300px) {
+  #course-promotion-1-1 {
+    font-size: 12px;
+  }
+  
+  #course-promotion-1-2 {
+    font-size: 16px;
+  }
+}

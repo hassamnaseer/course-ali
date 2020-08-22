@@ -1,0 +1,42 @@
+@import '../CoursesList/HomePageCoursesList.css';
+
+@font-face {
+    font-family: montserrat-thin;
+    src: url("../../styles/Fonts/Montserrat-Thin.otf");
+}
+
+@font-face {
+    font-family: montserrat-extralight;
+    src: url("../../styles/Fonts/Montserrat-ExtraLight.otf");
+}
+
+@font-face {
+    font-family: montserrat-normal;
+    src: url("../../styles/Fonts/Montserrat-Regular.otf");
+}
+
+@font-face {
+    font-family: montserrat-medium;
+    src: url("../../styles/Fonts/Montserrat-Medium.otf");
+}
+
+@font-face {
+    font-family: montserrat-semibold;
+    src: url("../../styles/Fonts/Montserrat-SemiBold.otf");
+}
+
+@font-face {
+    font-family: montserrat-bold;
+    src: url("../../styles/Fonts/Montserrat-Bold.otf");
+}
+
+@font-face {
+    font-family: montserrat-black;
+    src: url("../../styles/Fonts/Montserrat-Black.otf");
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}

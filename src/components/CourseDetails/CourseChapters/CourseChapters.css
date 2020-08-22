@@ -1,0 +1,58 @@
+@import '../../../styles/Fonts/Fonts.css';
+
+.accordion-section {
+  font-family: "montserrat-bold";
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.accordion-title {
+  padding-top: 8px;
+  background-color: #fff;
+  font-family: "montserrat-bold";
+  color: #444;
+  /* cursor: pointer; */
+  display: flex;
+  align-items: center;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+
+/* .accordion-title:hover, */
+.active {
+  border: 0px !important;
+}
+
+.accordion-icon {
+  margin-left: 0;
+}
+
+.accordion-content {
+  background-color: white;
+  padding-top: 10px;
+  margin-left: auto;
+  width: 85.5%;
+  text-align: left;
+  color: #ADADAD;
+  font-family: "montserrat-medium";
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+}
+
+.lecture {
+  color: #E9E9E9;
+  font-family: "montserrat-normal";
+  font-size: 14px !important;
+}
+
+.title {
+  font-size: 16px !important;
+}
+
+.accordion-text {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 18px;
+}

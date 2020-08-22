@@ -1,0 +1,36 @@
+@import "../../../styles/Fonts/Fonts.css";
+
+.details-container {
+  width: 100% !important;
+}
+
+.heading {
+  width: 100%;
+  font-family: "montserrat-bold";
+}
+
+#no-of-lectures {
+  font-family: "montserrat-normal";
+  font-size: 14px;
+  float: right;
+}
+
+#heading-no-of-lecture {
+  font-family: "montserrat-extralight";
+  font-size: 14px;
+  float: right;
+  color: #C4C4C4;
+}
+
+#heading-total-time {
+  font-family: "montserrat-bold";
+  font-size: 16px;
+  float: right;
+  padding-left: 50px;
+}
+
+.course-chapters {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

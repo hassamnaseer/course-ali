@@ -1,0 +1,17 @@
+.footer {
+    background-color: #1c212d !important;
+    color: #fff;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    padding-top: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-family: "montserrat-extralight";
+    font-size: 12px;
+}

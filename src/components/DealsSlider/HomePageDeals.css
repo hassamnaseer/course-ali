@@ -1,0 +1,30 @@
+.deals {
+    background-image: url("/assets/deals-background.png");
+    width: 100%;
+    padding-top: 25px !important;
+}
+
+.deals-container {
+  height: 400px !important;
+}
+
+.deals-heading {
+    padding-top: 25px;
+    font-family: "montserrat-Bold" !important;
+    font-size: 160%;
+    color: #fff;
+}
+
+.deals-slider-main {
+    padding-bottom: 40px;
+}
+
+.deals-slider-image {
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.1);
+}
+
+.deals-slider-image:hover {
+    -webkit-transform: scale(1.25, 1.25);
+    box-shadow: 0 0px 7px rgba(33, 33, 33, 0.3) !important;
+    transform: scale(1.02, 1.02);
+}

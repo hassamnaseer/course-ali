@@ -1,0 +1,31 @@
+@import "../../styles/Fonts/Fonts.css";
+
+.ribbon-main {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.ribbon {
+    text-align: center;
+    font-family: "montserrat-normal";
+    font-size: 12px;
+    margin-left: auto;
+}
+
+.ribbon-anchor {
+    color: #fff;
+    font-family: "montserrat-medium";
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+.ribbon-anchor:hover {
+    color: #f9f9f9;
+}
+
+.ribbon-icon {
+    margin-right: 10px;
+    margin-left: auto;
+    color: #fff !important;
+}

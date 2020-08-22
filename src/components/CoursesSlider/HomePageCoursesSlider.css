@@ -1,0 +1,126 @@
+.new-courses-container {
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+.new-courses-heading {
+    font-family: "montserrat-Bold" !important;
+    font-size: 160%;
+    margin-bottom: 20px;
+}
+
+.new-courses-slider {
+    margin-top: 15px;
+    height: 10%;
+}
+
+.new-course-card {
+    font-family: "montserrat-normal" !important;
+    font-size: 14px;
+    min-height: 310px !important;
+    max-height: 330px !important;
+    max-width: 100% !important;
+    border-radius: 0 !important;
+    background-color: #f9f9f9 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    color: #000;
+}
+
+.new-course-card:hover {
+    -webkit-transform: scale(1.25, 1.25);
+    box-shadow: 0 0px 7px rgba(33, 33, 33, 0.3) !important;
+    transform: scale(1.02, 1.02);
+    text-decoration: none;
+}
+
+.card-clickable:hover {
+  text-decoration: none;
+}
+
+.new-course-card > :first-child {
+    border-radius: 0px !important;
+}
+
+.new-course-author-pic {
+    position: absolute;
+    transform: translateY(-80%);
+    max-height: 14%;
+    max-width: 25%;
+    border-radius: 50%;
+    border: 1.5px solid white;
+}
+
+#new-course-card-author {
+    position: absolute;
+    vertical-align: middle;
+    padding-top: 4px !important;
+    font-family: "montserrat-medium";
+}
+
+#course-promotion-1 {
+  color: #6F6F6F;
+  font-family: "montserrat-bold";
+  font-size: 100%;
+  text-decoration-line: line-through; 
+}
+
+#course-promotion-2 {
+  color: #F4B803;
+  font-family: "montserrat-bold";
+  font-size: 110%;
+}
+
+#course-promotion-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: #1C212D;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#course-promotion-btn1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: none;
+}
+
+#new-course-card-amount {
+    content: "$";
+    color: #51d434;
+    float: right;
+    font-size: 130%;
+    font-family: "montserrat-bold";
+    vertical-align: middle;
+}
+
+.new-course-card-title {
+    font-family: "montserrat-semibold" !important;
+    font-size: 13px;
+    text-align: center;
+}
+
+.new-course-card {
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.1);
+}
+
+.new-course-card:hover {
+    -webkit-transform: scale(1.25, 1.25);
+    box-shadow: 0 0px 7px rgba(33, 33, 33, 0.3) !important;
+    transform: scale(1.02, 1.02);
+}
+
+.new-course-card-source {
+    text-align: center;
+}
+
+.new-course-card-source-logo {
+    height: 13px;
+    width: 50px;
+}
+
+.abc {
+  width: 95%;
+}
